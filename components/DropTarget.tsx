@@ -1,5 +1,5 @@
 // components/DropTarget.tsx
-import React, { ReactNode, useState } from 'react';
+import React, { useState } from 'react';
 import DraggableItem from './DraggableItem';
 
 const DropTarget = ({list, setList}:{ list: string[],setList: any}) => {
